@@ -1,0 +1,13 @@
+# CMake artifacts
+build/
+out/
+.cmake/
+CMakeUserPresets.json
+
+# IDE folders
+.idea/
+.vscode/
+
+# Binaries
+*.exe
+*.dll
