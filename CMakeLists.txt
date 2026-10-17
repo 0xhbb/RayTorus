@@ -9,10 +9,10 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 add_executable(RayTorus
-        src/main.cpp
-        src/Renderer.cpp
-        src/Raytracer.cpp
-        include/Renderer.h
+    src/main.cpp
+    src/Renderer.cpp
+    src/Raytracer.cpp
+    include/Renderer.h
 )
 
 # Crucial: Maps your /include directory to the compiler's search path
